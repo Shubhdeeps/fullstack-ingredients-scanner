@@ -6,8 +6,8 @@ namespace Enumbers_server.Api.Endpoints;
 
 public static class OCREndpoints
 {
-    private static string currentDirectory = Directory.GetCurrentDirectory();
-    private static string fullPath = Path.Combine(currentDirectory, "bin", "Debug", "tessdata");
+    // private static string currentDirectory = Directory.GetCurrentDirectory();
+    private static string fullPath = Path.Combine(Environment.CurrentDirectory, "Data", "tessdata");
 
     private static string GetImageText(byte[] imageBytes)
     {
@@ -43,7 +43,6 @@ public static class OCREndpoints
         app.MapPost("/recognize", async ([FromForm] OCRDto octDto) =>
         {
             var imageFile = octDto.ImageFile;
-            var ocrengine = new TesseractEngine(@fullPath, "eng", EngineMode.Default);
             var imageByte = await GetImageBytes(imageFile);
             var extractedText = GetImageText(imageByte);
             return Results.Json(new { Text = extractedText });

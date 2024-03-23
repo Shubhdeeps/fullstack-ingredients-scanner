@@ -1,8 +1,7 @@
 using Enumbers_server.Api.Endpoints;
-using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
-
+builder.Services.AddAWSLambdaHosting(LambdaEventSource.HttpApi);
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
 
@@ -17,9 +16,10 @@ builder.Services.AddCors(options =>
 });
 
 
+
+
 var app = builder.Build();
-app.MapGamesEndpoints();
 app.MapOCREndpoints();
-app.MapGet("/", () => Results.Text("Hello, world!"));
+app.MapGet("/", () => Results.Text("Hello, this is ocr engine api!"));
 app.UseCors(MyAllowSpecificOrigins);
 app.Run();

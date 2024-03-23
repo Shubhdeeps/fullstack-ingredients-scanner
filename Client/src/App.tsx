@@ -7,7 +7,7 @@ function App() {
   useEffect(() => {
     console.log("file", file);
 
-    axios.get("http://localhost:5056/").then((res) => {
+    axios.get("http://localhost:5000/").then((res) => {
       console.log(res.data);
     });
     if (file) {
@@ -17,10 +17,12 @@ function App() {
 
       (async () => {
         try {
+          console.time("API Call");
           const response = await axios.post(
-            "http://localhost:5056/recognize",
+            "http://localhost:5000/recognize",
             formData
           );
+          console.timeEnd("API Call");
           console.log(response.data);
           setText(response.data.text);
         } catch (error) {
