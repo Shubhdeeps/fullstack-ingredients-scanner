@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 function App() {
   const [file, setFile] = useState<File | null>(null);
-
+  const [text, setText] = useState("");
   useEffect(() => {
     console.log("file", file);
 
@@ -22,6 +22,7 @@ function App() {
             formData
           );
           console.log(response.data);
+          setText(response.data.text);
         } catch (error) {
           console.log(error);
         }
@@ -40,6 +41,7 @@ function App() {
           type="file"
           accept="image/*"
         />
+        <p>{text}</p>
       </div>
     </>
   );
