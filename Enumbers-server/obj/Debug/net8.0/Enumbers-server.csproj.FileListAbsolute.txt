@@ -49,3 +49,4 @@ F:\C#\Enumbers-server\bin\Debug\net8.0\Patagames.Ocr.dll
 F:\C#\Enumbers-server\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
 F:\C#\Enumbers-server\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
 F:\C#\Enumbers-server\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\C#\Enumbers-server\obj\Debug\net8.0\Enumbers-server.sourcelink.json

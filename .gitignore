@@ -1,0 +1,6 @@
+# Ignore ReactJS modules
+/node_modules
+.env
+# Ignore .NET Core modules
+/bin
+/obj
