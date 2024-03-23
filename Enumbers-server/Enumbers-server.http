@@ -1,0 +1,37 @@
+@Enumbers_server_HostAddress = http://localhost:5056
+
+GET {{Enumbers_server_HostAddress}}/
+Accept: application/json
+
+###
+GET {{Enumbers_server_HostAddress}}/games
+Accept: application/json
+
+
+###
+GET {{Enumbers_server_HostAddress}}/games/4
+Accept: application/json
+
+
+###
+POST {{Enumbers_server_HostAddress}}/games
+Content-Type: application/json
+
+{
+  "name": "GTA 5",
+  "genre": "Action",
+  "price": 10.0,
+  "releaseDate": "2013-09-17"
+}
+
+###
+PUT {{Enumbers_server_HostAddress}}/games/2
+Content-Type: application/json
+
+ {
+    "id": 1,
+    "name": "Assassin's Creed Valhalla",
+    "genre": "Action-Adventure",
+    "price": 90.99,
+    "releaseDate": "2020-11-10"
+  }
