@@ -2,5 +2,6 @@
 
 public record class OCRDto
 (
-    IFormFile ImageFile
+    IFormFile ImageFile,
+    string ImageText
 );

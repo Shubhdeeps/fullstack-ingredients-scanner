@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\C#\\Enumbers-server\\Enumbers-server.csproj": {}
+    "F:\\Fullstack\\Enumbers-server\\Enumbers-server.csproj": {}
   },
   "projects": {
-    "F:\\C#\\Enumbers-server\\Enumbers-server.csproj": {
+    "F:\\Fullstack\\Enumbers-server\\Enumbers-server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\C#\\Enumbers-server\\Enumbers-server.csproj",
+        "projectUniqueName": "F:\\Fullstack\\Enumbers-server\\Enumbers-server.csproj",
         "projectName": "Enumbers-server",
-        "projectPath": "F:\\C#\\Enumbers-server\\Enumbers-server.csproj",
+        "projectPath": "F:\\Fullstack\\Enumbers-server\\Enumbers-server.csproj",
         "packagesPath": "C:\\Users\\shubh\\.nuget\\packages\\",
-        "outputPath": "F:\\C#\\Enumbers-server\\obj\\",
+        "outputPath": "F:\\Fullstack\\Enumbers-server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shubh\\AppData\\Roaming\\NuGet\\NuGet.Config",
