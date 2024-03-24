@@ -4,3 +4,4 @@
 # Ignore .NET Core modules
 /bin
 /obj
+/bin/*
