@@ -1,0 +1,11 @@
+{
+  "profile": "",
+  "region": "eu-north-1",
+  "configuration": "Release",
+  "function-runtime": "dotnet8",
+  "function-memory-size": 256,
+  "function-timeout": 30,
+  "function-handler": "Enumbers-server",
+  "function-name": "enumbersapi",
+  "function-url-enable": true
+}

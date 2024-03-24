@@ -418,7 +418,7 @@
         }
       }
     },
-    "net8.0/win-x64": {
+    "net8.0/linux-x64": {
       "Amazon.Lambda.APIGatewayEvents/2.7.0": {
         "type": "package",
         "compile": {
@@ -1561,6 +1561,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Amazon.Lambda.AspNetCoreServer >= 9.0.0",
       "Amazon.Lambda.AspNetCoreServer.Hosting >= 1.7.0",
       "Microsoft.AspNetCore.OpenApi >= 8.0.3",
       "Swashbuckle.AspNetCore >= 6.4.0",
@@ -1611,6 +1612,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "Amazon.Lambda.AspNetCoreServer": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
           "Amazon.Lambda.AspNetCoreServer.Hosting": {
             "target": "Package",
             "version": "[1.7.0, )"
@@ -1641,15 +1646,7 @@
         "warn": true,
         "downloadDependencies": [
           {
-            "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-            "version": "[8.0.3, 8.0.3]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Runtime.win-x64",
-            "version": "[8.0.3, 8.0.3]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+            "name": "Microsoft.NETCore.App.Host.linux-x64",
             "version": "[8.0.3, 8.0.3]"
           }
         ],
@@ -1665,7 +1662,7 @@
       }
     },
     "runtimes": {
-      "win-x64": {
+      "linux-x64": {
         "#import": []
       }
     }

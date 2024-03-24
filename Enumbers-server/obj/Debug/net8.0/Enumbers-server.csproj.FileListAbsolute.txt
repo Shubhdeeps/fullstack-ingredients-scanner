@@ -97,3 +97,7 @@ F:\Fullstack\Enumbers-server\bin\Debug\net8.0\Amazon.Lambda.Core.dll
 F:\Fullstack\Enumbers-server\bin\Debug\net8.0\Amazon.Lambda.Logging.AspNetCore.dll
 F:\Fullstack\Enumbers-server\bin\Debug\net8.0\Amazon.Lambda.RuntimeSupport.dll
 F:\Fullstack\Enumbers-server\bin\Debug\net8.0\Amazon.Lambda.Serialization.SystemTextJson.dll
+F:\Fullstack\Enumbers-server\bin\Debug\net8.0\Data\tessdata\eng.traineddata
+F:\Fullstack\Enumbers-server\bin\Debug\net8.0\Data\tessdata\equ.traineddata
+F:\Fullstack\Enumbers-server\bin\Debug\net8.0\Data\tessdata\osd.traineddata
+F:\Fullstack\Enumbers-server\bin\Debug\net8.0\Data\tessdata\pdf.ttf

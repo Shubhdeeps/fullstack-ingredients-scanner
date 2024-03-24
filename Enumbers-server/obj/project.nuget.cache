@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CLTkZyUWvpad3WLpCS+lq+umWzcVH2irmtaVN8G1dPiVcb0k9mBSDjUFvzxsM1qpCZarJlekQJYWJbA6FF9Bwg==",
+  "dgSpecHash": "KO897tnHHVrezkq6q8uqd7E57Ww3nd4UEVRqaBXa2J5OIkLRnl/8NxNLygW0gOLdP6PNNqtN9uYmQ32I+OkzDA==",
   "success": true,
   "projectFilePath": "F:\\Fullstack\\Enumbers-server\\Enumbers-server.csproj",
   "expectedPackageFiles": [
@@ -31,9 +31,7 @@
     "C:\\Users\\shubh\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Users\\shubh\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.0\\system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512",
     "C:\\Users\\shubh\\.nuget\\packages\\tesseract\\5.2.0\\tesseract.5.2.0.nupkg.sha512",
-    "C:\\Users\\shubh\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.3\\microsoft.netcore.app.runtime.win-x64.8.0.3.nupkg.sha512",
-    "C:\\Users\\shubh\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.3\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.3.nupkg.sha512",
-    "C:\\Users\\shubh\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.3\\microsoft.aspnetcore.app.runtime.win-x64.8.0.3.nupkg.sha512"
+    "C:\\Users\\shubh\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\8.0.3\\microsoft.netcore.app.host.linux-x64.8.0.3.nupkg.sha512"
   ],
   "logs": []
 }
